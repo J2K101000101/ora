@@ -1,5 +1,5 @@
 rm(list = ls())
-library(pacman)
+library(pacman)# install this package if you don't have it yet or install all packages you might need (see next line) in other ways you prefer
 p_load(rjags,ggplot2,bayesplot,ggmcmc,rstan,rstatix)
 load.module('wiener','/usr/lib/JAGS/modules-4/')
 
