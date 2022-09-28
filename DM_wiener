@@ -1,0 +1,14 @@
+	
+model {
+  # Likelihood:
+  for (i in 1 : nTrials){
+    RT[i] ~ dwiener (threshold[session[i]],ndt[session[i]], 0.5, rate[session[i]] )
+  }
+  # Priors:
+  for (s in 1 : nSessions){
+    rate[s] ~ dnorm(0,1)
+    threshold[s] ~ dnorm(3,2)T(0,)
+    ndt[s] ~ dnorm(0.15,1)T(0,)
+  }
+}
+
