@@ -8,4 +8,5 @@ You need to install before hand:
 2. https://github.com/yeagle/jags-wiener
 
 CleanedTraining is the cleaned training data that you will need to fit in demo_ora_fit.R. 
-demo_ora_fit.R requires DM_wiener where contains the model details
+
+demo_ora_fit.R requires DM_wiener where contains the model details.
