@@ -2,7 +2,7 @@
 
 This is a demo of fitting data to Wiener Difussion Model for ORA training data
 
-You need to install before hand:
+You need to install beforehand:
 
 1. https://mcmc-jags.sourceforge.io/
 2. https://github.com/yeagle/jags-wiener
